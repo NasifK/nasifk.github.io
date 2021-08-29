@@ -1,7 +1,14 @@
+/*COLOR SCHEME
+SAGE: C9CBA3
+PEACH: FFE1A8
+TERRACOTA: E26D5C
+CATWABA: 723D46
+BURGANDY: 472D30 */
+
 .header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: #C9CBA3;
     color: white;
     font-size: 30px;
   }
