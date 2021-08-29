@@ -11,7 +11,15 @@ BURGANDY: 472D30 */
     background: #c9cba3;
     color: white;
     font-size: 30px;
-  }
+}
+
+.h1 {
+    font-style: normal;
+}
+
+.p {
+    font-style: normal;
+}
 
 .hr { 
     display: block; 
@@ -37,7 +45,7 @@ BURGANDY: 472D30 */
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-    max-width: 200px;
+    max-width: 250px;
 }
 
   .introduction {
