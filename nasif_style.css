@@ -25,6 +25,13 @@ BURGANDY: 472D30 */
     border-width: 1px;
 }
 
+.caption { 
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    font-style: italic;
+}
+
 .center {
     display: block;
     margin-left: auto;
