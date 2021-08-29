@@ -8,7 +8,7 @@ BURGANDY: 472D30 */
 .header {
     padding: 30px;
     text-align: center;
-    background: #a6cba3;
+    background: #92a8d1;
     color: white;
     font-size: 30px;
   }
@@ -17,4 +17,5 @@ BURGANDY: 472D30 */
       text-align: right;
       color: black;
       font-size: 15px;
+      border: 15px #92a8d1
   }
