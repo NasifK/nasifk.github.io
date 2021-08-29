@@ -1,5 +1,5 @@
 /*COLOR SCHEME
-SAGE: C9CBA3
+SAGE: c9cba3
 PEACH: FFE1A8
 TERRACOTA: E26D5C
 CATWABA: 723D46
@@ -8,7 +8,7 @@ BURGANDY: 472D30 */
 .header {
     padding: 30px;
     text-align: center;
-    background: #92a8d1;
+    background: #c9cba3;
     color: white;
     font-size: 30px;
   }
@@ -17,5 +17,5 @@ BURGANDY: 472D30 */
       text-align: right;
       color: black;
       font-size: 15px;
-      border: 15px #92a8d1
+      border: 15px #c9cba3
   }
