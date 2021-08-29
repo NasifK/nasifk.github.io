@@ -12,3 +12,9 @@ BURGANDY: 472D30 */
     color: white;
     font-size: 30px;
   }
+
+  .introduction {
+      text-align: right;
+      color: black;
+      font-size: 15px;
+  }
