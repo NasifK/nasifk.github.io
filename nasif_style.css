@@ -87,8 +87,12 @@ a:active {
   }
   
   /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.strava {
+    padding: 15px;
+}
