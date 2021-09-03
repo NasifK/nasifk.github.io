@@ -1,105 +1,337 @@
-<!-- COLOR SCHEME-->
-<!-- SAGE: C9CBA3-->
-<!-- PEACH: FFE1A8-->
-<!-- TERRACOTA: E26D5C-->
-<!-- CATWABA: 723D46-->
-<!-- BURGANDY: 472D30-->
 <!DOCTYPE html>
-<html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-    <link rel="stylesheet" href="nasif_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oxygen&display=swap" rel="stylesheet">
-
-    <div class = "header">
-        <h1>Kat Nasif (she/they)</h1>
-        <p>UCLA Computer Engineering Student, CO '24</p>
-    </div>
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Kat Nasif</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 </head>
 
-<hr>
+<body id="top">
+	<!-- header
+   ================================================== -->
+	<header>
+		<div class="row">
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+				<div class="logo">
+					<a href="index.html">Kat Nasif</a>
+				</div>
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About Me</a></li>
+						<li><a class="smoothscroll" href="#experience" title="">Experience</a></li>
+						<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+		<div class="intro-overlay"></div>
+		<div class="intro-content">
+			<div class="row">
+				<div class="col-twelve">
+					<h1>Kat Nasif</h1>
+					<h5> UCLA Computer Engineering CO '24 (she/they) </h5>
+					<a class="button stroke smoothscroll" href="#about" title="">About Me</a>
+				</div>
+			</div>
+		</div> <!-- /intro-content -->
+	</section> <!-- /intro -->
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Introduction</h5>
+				<div class="intro-info">
+					<img src="images\headshot.jpg" alt="Profile Picture">
+					<p class="lead">Hey there! I am a computer engineering student at the University of California, Los Angeles. 
+                        I've been a hardware nerd for as long as I can remember, and robotics is one of my life-long passions. Mechanical design, controls,
+                        and maker technologies are second nature to me. In my free time, I run long distance and play the guitar.
+                    </p>
+				</div>
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+			<div class="col-six tab-full">
+				<h3>Personal Info</h3>
+				<ul class="info-list">
+					<li>
+						<strong>Name:</strong>
+						<span>Kat Nasif</span>
+					</li>
+					<li>
+						<strong>Personal Email:</strong>
+						<span>katherine.nasif@gmail.com</span>
+						<strong>School Email:</strong>
+						<span>katnasif@ucla.edu</span>
+					</li>
+					<li>
+						<strong>Address:</strong>
+						<span>330 De Neve Drive, Los Angeles, CA 90024</span>
+					</li>
+					<li>
+						<strong>Phone:</strong>
+						<span>(650)272-1269</span>
+					</li>
+				</ul> <!-- /info-list -->
+			</div>
+			<div class="col-six tab-full">
+				<h3>Skills/Languages</h3>
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>C++</strong>
+					</li>
+					<li>
+						<div class="progress percent60"><span>60%</span></div>
+						<strong>C</strong>
+					</li>
+					<li>
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>3D Printing</strong>
+					</li>
+					<li>
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>Solidworks</strong>
+					</li>
+					<li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>Python</strong>
+					</li>
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>Java</strong>
+					</li>
+                    <li>
+						<div class="progress percent60"><span>60%</span></div>
+						<strong>PCB Design</strong>
+					</li>
+				</ul> <!-- /skill-bars -->
+			</div>
+		</div>
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact Me</a>
+				<a href="images\Nasif Katherine Resume.pdf" target="_blank" title="Download Resume" class="button button-primary">Resume</a>
+			</div>
+		</div>
+	</section> <!-- /process-->
 
 
-<body>
-    <img src="IMG_2186.jpg" alt="Headshot" class="center">
-    <body class = "caption"> Hi there! Kat here. I am a computer engineering student with interests in robotics, mechanical design, controls, and so much more! <br>Excuse my graphic design skills-- that isn't exactly one of my passions. </body>
+	<!-- resume Section
+   ================================================== -->
+	<section id="experience" class="grey-section">
+		<div class="row resume-timeline">
+			<div class="col-twelve resume-header">
+				<h2>Academic History</h2>
+			</div> <!-- /resume-header -->
+			<div class="col-twelve">
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>University of California, Los Angeles – 2024</h3>
+							<p>GPA: 3.8/4.0</p>
+							<p>Studying Computer Engineering with a focus in Mechanical Engineering.</p>
+						</div>
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+						<div class="timeline-content">
+							<h4>Los Altos High School, Los Altos - 2020</h4>
+							<p>Graduated with a 3.9 unweighted GPA (4.6 weighted).</p>
+						</div>
+					</div> <!-- /timeline-block -->
+				</div> <!-- /timeline-wrap -->
+			</div> <!-- /col-twelve -->
+		</div> <!-- /resume-timeline -->
+		<div class="row resume-timeline">
+			<div class="col-twelve resume-header">
+				<h2>Experience</h2>
+			</div> <!-- /resume-header -->
+			<div class="col-twelve">
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-flask"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Micromouse Project, IEEE at UCLA</h3>
+							<p>October 2020 - March 2021</p>
+						</div>
+						<div class="timeline-content">
+							<p>During my remote freshman year, I built a robotics maze-solving mouse with a partner.
+                                To compete in the American Micromouse Competition. All programming was done on the STM32Cube IDE 
+                                in C. Our mouse won a judges choice award for igenuity in designing and implementing a custom 
+                                chassis to shrink the mouse down to micro-size.
+                            </p>
+						</div>
+					</div> <!-- /timeline-block -->
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-flask"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Wearable Motion Detection and Alarm System for Post-Surgical Shoulder Recovery with
+                                EmbeddedML on STM Sensortile</h3>
+							<p>Project for Engineering 96C, Fall 2020</p>
+						</div>
+						<div class="timeline-content">
+							<p>During this class, I learned embeddedML on the STM-ARM based Sensortile board. I created a wearable shoulder 
+                                motion detection system to aid in post-surgical recovery with a built-in alarm system. A video of the device working is shown below.
+                            </p>
+						</div>
+					</div>
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Beam On Technology, Full-Time Laser Operator </h3>
+							<p>Summer 2020</p>
+						</div>
+						<div class="timeline-content">
+							<p>The summer before I attended UCLA, I worked as a laser operator in a manufacturing plant, where I learned important
+                                ideas about the manufacturing process. I learned solder stencil creation technologies for prototype PCBs for various Bay
+                                Area companies. This job kept me on my feet at all times, for a single mistake could be very costly.
+                            </p>
+						</div>
+					</div> <!-- /timeline-block -->
+				</div> <!-- /timeline-wrap -->
+			</div> <!-- /col-twelve -->
+		</div> <!-- /resume-timeline -->
+	</section> <!-- /features -->
 
-    <hr>
+	<!-- services Section
+   ================================================== -->
+	<section id="skills">
+		<div class="overlay"></div>
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>SKILLS</h5>
+			</div>
+		</div> <!-- /section-intro -->
+		<div class="row services-content">
+			<div id="owl-slider" class="owl-carousel services-list">
+				<div class="service">
+					<span class="icon"><i class="icon-window"></i></span>
+					<div class="service-content">
+						<h3>Prototyping</h3>
+						<p class="desc"># C++ # Laser Cutting # CNC Operation </br> # PCB Design # 3D Printing # C </br> #
+							CAD Design # Robotics </p>
+					</div>
+				</div> <!-- /service -->
+				<div class="service">
+					<span class="icon"><i class="icon-chat"></i></span>
+					<div class="service-content">
+						<h3>Concepts</h3>
+						<p class="desc"> # Signals Processing # Assembly </br> # Circuit Analysis # Computer Vision </br># Controls Systems #
+							Data Analysis </br> # Quality Assurance # Embedded Systems</p>
+					</div>
+				</div> <!-- /service -->
+				<div class="service">
+					<span class="icon"><i class="icon-earth"></i></span>
+					<div class="service-content">
+						<h3>Interests</h3>
+						<p class="desc"> # Robotics # Space Systems </br># Climate Systems # Accessibility </br># Geology # Earth Science</p>
+					</div>
+				</div> <!-- /service -->
+			</div> <!-- /services-content -->
+	</section> <!-- /services -->
 
-        <!-- Display the countdown timer in an element -->
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Contact Me</h5>
+				<h1>Feel free to reach out!</h1>
+			</div>
+		</div> <!-- /section-intro -->
+		<div class="row contact-info">
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+				<h5>Locate Me</h5>
+				<p>330 De Neve Drive<br>Los Angeles, CA<br>90024</p>
+			</div>
+			<div class="col-four tab-full collapse">
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+				<h5>Email Me</h5>
+				<p>katnasif@ucla.edu<br>katherine.nasif@gmail.com</p>
+			</div>
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-smile"></i>
+				</div>
+				<h5>Socials</h5>
+				<p>Instagram: @kat.nasif </p>
+			</div>
+		</div> <!-- /contact-info -->
+	</section> <!-- /contact -->
 
-    <div class = "introduction">
-        One day, I'll put a slide deck of my projects here, but for now, enjoy this bit of text because my attention span for this is like 30 minutes, tops.<br><br>
+	<!-- footer
+   ================================================== -->
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquam euismod faucibus. Sed rhoncus lacus pulvinar diam gravida venenatis. Vestibulum non efficitur massa, aliquam porttitor justo. Praesent non suscipit turpis. Curabitur et felis vulputate, placerat nibh quis, facilisis nunc. Suspendisse efficitur odio ut nisi venenatis, id tempor purus porttitor. Sed sollicitudin libero eu mauris tempus, sit amet luctus urna porttitor. Nullam neque enim, consequat eget tempus at, suscipit sit amet velit. <br><br>
-
-        Vestibulum a tempor odio. Nulla ultrices condimentum orci sit amet tempus. Sed eu eleifend quam, a pretium justo. Sed dapibus ac dui eu euismod. Mauris consectetur aliquam metus, sed ullamcorper ipsum tristique in. In aliquet facilisis scelerisque. Quisque et neque dui. Nunc vel gravida leo. Nullam sem libero, rutrum nec mauris ultrices, consectetur convallis augue. Duis nec vulputate justo. Proin blandit porta sem. Suspendisse gravida, est a scelerisque fringilla, odio massa dapibus nibh, id lobortis neque dolor in est. Ut erat odio, vehicula sed euismod at, ultricies nec libero. Proin fringilla justo vel lacinia ultricies. Phasellus vehicula sem et egestas fringilla.<br><br>
-        
-        Praesent scelerisque, velit a malesuada rutrum, lacus dui suscipit lectus, nec dictum orci lorem a neque. Nam non lorem non turpis pharetra consectetur et a nisl. Phasellus libero ex, lobortis nec tristique nec, ultricies nec dolor. Suspendisse fermentum leo tempus odio tempor, tempus eleifend tortor maximus. Praesent tempus lobortis erat, sed mattis turpis elementum in. Integer molestie euismod luctus. Maecenas id metus felis.<br><br>
-        
-        Aliquam erat volutpat. In ut elementum felis. Pellentesque congue elit id purus porttitor condimentum. Aliquam erat volutpat. Quisque a turpis ex. Nunc ligula turpis, aliquet et quam id, varius lacinia lectus. Nunc commodo viverra risus quis congue. Aenean vel turpis eget massa euismod placerat.<br><br>
-        
-        Phasellus eu lorem vitae justo feugiat lacinia condimentum eu turpis. Praesent placerat diam eu ligula suscipit, ac condimentum nulla finibus. Nullam sollicitudin cursus tempor. Nam viverra ut nulla eu sodales. Nulla facilisi. Suspendisse pellentesque metus id luctus aliquet. Aenean gravida euismod lectus eu sagittis. Curabitur quam massa, euismod ac massa at, tincidunt lacinia lacus. Aenean efficitur ante eu interdum condimentum. Sed luctus ante nulla, in dignissim enim lobortis id. Pellentesque porta tellus magna, eget volutpat neque interdum et. Fusce congue ipsum et elit congue condimentum. Suspendisse a dolor eu lectus sollicitudin auctor id eu leo. Aenean consequat nulla non bibendum blandit.<br><br>
-    </div>
-
-    <hr>
-
-    <div class="row">
-        <div class="column">
-            <div class = "count-down">COUNTDOWN TO MOVE IN: </div>
-            <div class = "count-down">
-                <p id="demo"></p>
-            </div>
-            
-        
-            <script>
-                // Set the date we're counting down to
-                var countDownDate = new Date("September 11, 2021 20:00:00").getTime();
-        
-                // Update the count down every 1 second
-                var x = setInterval(function() {
-        
-                // Get today's date and time
-                var now = new Date().getTime();
-        
-                // Find the distance between now and the count down date
-                var distance = countDownDate - now;
-        
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-                // Display the result in the element with id="demo"
-                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                + minutes + "m " + seconds + "s ";
-        
-                // If the count down is finished, write some text
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("demo").innerHTML = "MOVED-IN";
-                }
-                }, 1000);
-            </script>
-        </div>
-        <div class="column">
-            <div class = "strava">
-                <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/32816768/activity-summary/92a2cb81cb3d5d8ce32c80e5a129ad72f4a1ed91'></iframe>
-            </div>
-        </div>
-      </div>
-    
-
-
-    <hr>
-
-    <em> <a href = "https://github.com/NasifK">My Github</a></em>
-
+	<footer>
+		<div class="row">
+			<div class="col-six tab-full pull-right social">
+				<ul class="footer-social">
+					<li><a target="_blank" href="https://www.instagram.com/kat.nasif/"><i
+								class="fa fa-instagram"></i></a></li>
+					<li><a target="_blank" href="https://github.com/nasifk"><i class="fa fa-github"
+								aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+		</div> <!-- /row -->
+	</footer>
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
-
-
 </html>
