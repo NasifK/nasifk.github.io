@@ -27,14 +27,17 @@ a:active {
     background: #c9cba3;
     color: white;
     font-size: 30px;
+    font-family: 'Oxygen', sans-serif;;
 }
 
 .h1 {
     font-style: normal;
+    font-family: 'Oxygen', sans-serif;;
 }
 
 .p {
     font-style: normal;
+    font-family: 'Oxygen', sans-serif;;
 }
 
 .hr { 
@@ -54,6 +57,7 @@ a:active {
     font-size: 14px;
     color: black;
     font-style: italic;
+    font-family: 'Oxygen', sans-serif;;
 }
 
 .center {
@@ -71,6 +75,7 @@ a:active {
     color: #472D30;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Oxygen', sans-serif;;
 }
 
 .introduction {
@@ -78,6 +83,7 @@ a:active {
     text-align: left;
     font-style: normal;
     color: black;
+    font-family: 'Oxygen', sans-serif;;
     font-size: 15px;
 }
 
@@ -88,9 +94,9 @@ a:active {
   
   /* Clear floats after the columns */
 .row:after {
-content: "";
-display: table;
-clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .strava {
