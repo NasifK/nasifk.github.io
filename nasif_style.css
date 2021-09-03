@@ -60,6 +60,7 @@ BURGANDY: 472D30 */
 .introduction {
     padding: 15px;
     text-align: left;
+    font-style: normal;
     color: black;
     font-size: 15px;
 }
