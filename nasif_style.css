@@ -48,9 +48,18 @@ BURGANDY: 472D30 */
     max-width: 250px;
 }
 
-  .introduction {
-      padding: 15px;
-      text-align: center;
-      color: black;
-      font-size: 15px;
-  }
+.count-down {
+    padding: 15px;
+    text-align: left;
+    font-style: normal;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.introduction {
+    padding: 15px;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+}
