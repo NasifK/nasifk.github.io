@@ -1020,7 +1020,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * -------------------------------------------------------------------
  */
 .grey-section {
-	background: #ebebeb;
+	background: #fffdfa;
 }
 .grey-section p.lead {
 	color: #7d7d7d;
@@ -1551,7 +1551,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #fffdfa;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1690,7 +1690,7 @@ header .logo a {
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #fffdfa;
 }
 #resume .timeline-content {
 	margin-left: 35%;
